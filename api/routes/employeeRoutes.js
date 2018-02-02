@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var employeeList = require('../controllers/employeeListController');
+  var employeeList = require('../controller/employeeController');
 
   // employeeList Routes
   app.route('/employees')
